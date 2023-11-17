@@ -1,0 +1,20 @@
+Na arquitetura Cliente-Servidor, o cliente (front_end) executa as tarefas do aplicativo, ou seja, fornece a interface do usuário (tela, e processamento de entrada e saída). 
+O servidor (back_end) executa as consultas no SGBD e retorna os resultados ao cliente. Apesar de ser uma arquitetura bastante popular, são necessárias soluções sofisticadas de software
+que possibilitem: o tratamento de transações, as confirmações de transações (commits), desfazer transações (rollbacks), linguagens de consultas (stored procedures) e gatilhos (triggers). 
+A principal vantagem desta arquitetura é a divisão do processamento entre dois sistemas, o que reduz o tráfego de dados na rede.
+
+Vantagens:
+-Suas soluções são menos dispendiosas do que as de minicomputadores ou mainframes alternativos de necessidades de infraestrutura de inicialização;
+-Suas soluções permitem que o usuário final utilize a GUI do microcomputador, aprimorando, assim, a funcionalidade e a simplicidade. Em particular, a utilização do navegador da web, universalmente disponível, 
+em conjunto com modelos de Java e .NET, fornece uma interface familiar ao usuário final;
+-Mais pessoas no mercado de trabalho possuem habilidades com PC do que com mainframe. A maior parte dos alunos da nova geração está aprendendo habilidades de programação Java e .NET;
+-O PC é bem mais estabelecido no local de trabalho. Além disso, o crescimento do uso da internet como um canal de negócios, aliado aos avanços de segurança (SSL, Redes Privadas Virtuais, autenticação de multifatores, etc.), 
+fornece plataforma mais confiável e segura para as transações comerciais;
+-Existem várias ferramentas de análise e consulta de dados para facilitar a interação com muitos SGBDs disponíveis no mercado de PCs;
+-Há uma considerável vantagem de custos para o desenvolvimento de aplicações offloading do mainframe para PCs poderosos.
+
+Desvantagens
+-A arquitetura cliente/servidor cria um ambiente mais complexo no qual diferentes plataformas (LANs, Sistemas Operacionais, etc.) costumam ser difíceis de gerenciar;
+-Um aumento no número de usuários e de locais de processamento costumam abrir espaço para problemas de segurança;
+-O ambiente cliente/servidor torna possível a disseminação do acesso aos dados a um círculo de usuários muito mais amplos. Esse ambiente amplia a demanda por pessoal com profundo conhecimento de computadores e aplicativos. 
+-Os encargos de treinamento elevam o custo de manutenção do ambiente.
